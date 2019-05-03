@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width, initial-scale=1">
+<title>Let's Dance</title>
+<script src="code2.js"></script>
+<style>
+
+
+
+.info {
+  font-family: monospace;
+  position: absolute;
+  line-height: 80px;
+  font-size: 14px;
+  left: 60px;
+  top: 60px;
+  
+}
+
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: continuum, Helvetica, sans-serif;
+  line-height: 40px;
+  font-size: 45px;
+
+}
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-image {
+
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container1{
+  position: absolute;
+  /*text-align: center;*/
+  color: white;
+  background-blend-mode: saturation;
+ }
+
+
+.container2 {
+  position: relative;
+  /*text-align:center;*/
+  color: white;
+
+}
+
+.container3 {
+  position: relative;
+  /*text-align: center;*/
+  color: white;
+}
+
+.container4 {
+  position: relative;
+  /*text-align: center;*/
+  color: white;
+}
+
+.container5 {
+  position: relative;
+  /*text-align: center;*/
+  color: white;
+}
+
+.container6 {
+  position:relative;
+  /*text-align: center;*/
+  color: white;
+}
+
+.container7 {
+  position:relative;
+  /*text-align: center;*/
+  color: white;
+}
+
+.container8 {
+  position:relative;
+  /*text-align: center;*/
+  color: white;
+}
+
+.bottom-left{
+  position: absolute;
+  bottom:8px;
+  left: 16px;
+}
+
+.top-left{
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+.top-right{
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+ 
+.bottom-right{
+ position: absolute;
+ bottom: 8px;
+ right: 16px;
+
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.img1 { background-image: url("colorfuldance.jpg"); }
+.img2 { background-image: url("archdance.jpg"); }
+.img3 { background-image: url("coupledance.jpg"); }
+.img4 { background-image: url("indiandance.jpg"); }
+.img5 { background-image: url("jitterbugs.jpg"); }
+.img6 { background-image: url("forestdance.jpg"); }
+.img7 { background-image: url("mexicandance.jpg"); }
+.img8 { background-image: url("firedancer.jpg"); }
+.img9 { background-image: url("sunsetbeach.jpg"); }
+
+
+.bg-text {
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.4); 
+  color: white;
+  font-weight: bold;
+  font-size: 40px;
+  border: 10px solid #f1f1f1;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 350px;
+  padding: 5px;
+  text-align:center;
+}
+</style>
+</head>
+<body>
+
+<div class="container1">
+<img src="colorfuldance.jpg" style="width:100%">
+<div class="centered">Let's Dance a song by David Bowie</div>
+
+<div class="container2">
+<img src="archdance.jpg" style="width:100%">
+<div class="top-left"><p>Let's dance.</p>
+<p>Put on your red shoes and dance the blues.</p>
+</div>
+
+<div class="container3">
+<img src="coupledance.jpg" style="width:100%">
+<div class="top-right"><p>Let's sway.</p> 
+<p>while color lights up your face.</p>
+<p>Let's sway</p>
+<p>Sway through the crowd to an empty space.</div>
+
+<div class="container4">
+<img src="indiandance.jpg" style="width:100%">
+<div class="top-right"><p>If you say run</p> 
+<p>i'll run with you.</p>
+<p>And if you say hide</p>
+<p>we'll hide.</div>
+
+
+<div class="container5">
+<img src="jitterbugs.jpg" style="width:100%">
+<div class="top-left"><p>Because my love for you</p>
+<p>would break my heart in two</p>
+<p>if you should fall into my arms</p>
+<p>and tremble like a flower.</p></div>
+
+<div class="container6">
+<img src="forestdance.jpg" style="width:100%">
+<div class="top-right"><p>Let's dance</p>
+<p>Let's dance</p>
+<p>For fear your grace should fall.</p></div>
+
+<div class="container7">
+<img src="mexicandance.jpg" style="width:100%">
+<div class="top-left"><p>Let's dance</p>
+<p>For fear tonight is all.</p></div>
+
+<div class="container8">
+<img src="firedancer.jpg" style="width:100%">
+<div class="top-right"><p><em>Let's sway</em></p>
+<p>You could look into my eyes</p></div>
+
+<div class="container9">
+<img src="sunsetbeach.jpg" style="width:100%">
+<div class="bottom-right"><p>Let's sway</p>
+<p>Under the moonlight, this serious moonlight</p>
+<p>And if you say run</p>
+<p>I'll run with you.</p>
+<p>And if you say hide</p>
+<p>We'll hide..</p>
+<p><h6>website by Corinna Chan</h6></p></div>
+
+
+<div class="bg-image img1"></div>
+<div class="bg-image img2"></div>
+<div class="bg-image img3"></div>
+<div class="bg-image img4"></div>
+<div class="bg-image img5"></div>
+<div class="bg-image img6"></div>
+<div class="bg-image img7"></div>
+<div class="bg-image img8"></div>
+<div class="bg-image img9"></div>
+
+
+<div class="bg-text"><p><h3>Let's Dance</h3></p> 
+<p><h4>David Bowie</h4></p>
+</div>
+
+</body>
+</html>
